@@ -18,7 +18,7 @@ const Login = () => {
       .catch((err) => console.log(err));
   };
   return (
-    <div>
+    <div className="p-5">
       <h4 className="text-[#1D2226] text-[28px] font-bold">
         Signin to your <br /> PopX account
       </h4>

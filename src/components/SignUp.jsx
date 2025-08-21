@@ -34,7 +34,7 @@ const SignUp = () => {
   return (
       <form
         onSubmit={handleSignUp}
-        className="h-full flex flex-col justify-between"
+        className="h-full flex flex-col justify-between p-5"
       >
         <div>
           <h4 className="text-[#1D2226] text-[28px] font-bold">
