@@ -1,4 +1,3 @@
-import React from "react";
 import Button from "../shared/Button";
 
 const Home = () => {
@@ -8,7 +7,6 @@ const Home = () => {
       <p className="text-[#1D2226] opacity-60 mt-3 mb-6 text-lg">
         Lorem ipsum dolor sit amet, <br /> consectetur adipiscing elit,
       </p>
-
       <div className="mb-8 flex flex-col">
         <Button
           text="Create Account"
