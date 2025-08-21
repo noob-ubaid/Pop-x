@@ -10,7 +10,7 @@ const Login = () => {
       <p className="text-[#1D2226] opacity-60 mt-3 mb-6 text-lg">
         Lorem ipsum dolor sit amet, <br /> consectetur adipiscing elit,
       </p>
-      <div className="flex flex-col gap-2.5">
+      <form className="flex flex-col gap-3">
         <InputField
           name={`email`}
           text={"Email Address"}
@@ -20,12 +20,15 @@ const Login = () => {
         />
         <InputField
           name={`password`}
-          text={"Passowrd"}
+          text={"Password"}
           type={`password`}
           required={"required"}
           placeholder={`Enter password`}
         />
-      </div>
+        <button className="bg-[#CBCBCB] text-white text-center w-full mb-3 py-2 rounded text-black font-medium">
+          Login
+        </button>
+      </form>
     </div>
   );
 };

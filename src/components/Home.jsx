@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router";
 import Button from "../shared/Button";
 
 const Home = () => {
@@ -12,16 +11,16 @@ const Home = () => {
 
       <div className="mb-8 flex flex-col">
         <Button
-          text={`Create Account`}
-          bgColor={`[#6C25FF]`}
-          textColor={`white`}
-          link={`register`}
+          text="Create Account"
+          bgColor="bg-[#6C25FF]"
+          textColor="text-white"
+          link="register"
         />
         <Button
-          text={`Already Registered? Login`}
-          bgColor={`[#6C25FF4B]`}
-          textColor={`black`}
-          link={`login`}
+          text="Already Registered? Login"
+          bgColor="bg-[#6C25FF4B]"
+          textColor="text-black"
+          link="login"
         />
       </div>
     </div>
